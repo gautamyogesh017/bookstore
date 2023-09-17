@@ -5,10 +5,10 @@ const bookSchema = new mongoose.Schema(
     name: { type: String },
     author: { type: String },
     category: { type: String },
-    price: { type: String },
+    price: { type: Number },
   },
   {
-    collection: "Books",
+    collection: "BookList",
   }
 );
 const bookModel = mongoose.model("Book", bookSchema);

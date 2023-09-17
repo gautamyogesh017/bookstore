@@ -9,7 +9,7 @@ require("dotenv").config();
 const connect = require("./src/db/mongoose");
 connect();
 
-const bookRouter = require("./src/Controller/bookRouter");
+const bookRouter = require("./src/Controller/bokRouter");
 const loginRouter = require("./src/Controller/loginRouter");
 const registerRouter = require("./src/Controller/registerRouter");
 
