@@ -1,0 +1,109 @@
+.navbar {
+  height: 80px;
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  padding: 0;
+  margin-right: 40px;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #007bff;
+}
+
+.navbar .navbar-nav {
+  margin-right: auto;
+}
+.navbar .navbar-nav .nav-item {
+  margin-right: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: #6c757d;
+  padding: 20px 0;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus {
+  color: #007bff;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #007bff;
+}
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-toggle {
+  font-size: 18px;
+  color: #6c757d;
+  padding: 20px 0;
+}
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-toggle:hover,
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-toggle:focus {
+  color: #007bff;
+}
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-menu {
+  margin-top: 0;
+  padding: 10px 0;
+}
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-menu .dropdown-item {
+  font-size: 16px;
+  color: #6c757d;
+}
+.navbar .navbar-nav .nav-item .nav-dropdown .dropdown-menu .dropdown-item:hover,
+.navbar
+  .navbar-nav
+  .nav-item
+  .nav-dropdown
+  .dropdown-menu
+  .dropdown-item:focus {
+  color: #007bff;
+  background-color: transparent;
+}
+
+.navbar .form-inline {
+  margin-right: 20px;
+}
+.navbar .form-inline .form-control {
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: #6c757d;
+}
+.navbar .form-inline .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+.navbar .form-inline .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.navbar .form-inline .btn:hover,
+.navbar .form-inline .btn:focus {
+  background-color: darken(#007bff, 10%);
+  border-color: darken(#007bff, 10%);
+}
+
+.navbar .nav .nav-link {
+  font-size: 24px;
+  color: #6c757d;
+  padding: 0;
+}
+.navbar .nav .nav-link:hover,
+.navbar .nav .nav-link:focus {
+  color: #007bff;
+}
+
+.navbar .nav .fa-shopping-cart {
+  font-size: 24px;
+  color: #6c757d;
+  margin-right: 20px;
+}
+.navbar .nav .fa-shopping-cart:hover,
+.navbar .nav .fa-shopping-cart:focus {
+  color: #007bff;
+}
