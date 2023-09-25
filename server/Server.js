@@ -12,11 +12,11 @@ const port = process.env.PORT;
 const connect = require("./src/db/mongoose");
 connect();
 
-const bokRouter = require("./src/Controller/bokRouter");
+const bookRouter = require("./src/Controller/bookRouter");
 const loginRouter = require("./src/Controller/loginRouter");
 const registerRouter = require("./src/Controller/registerRouter");
 
-app.use("/api/books", bokRouter);
+app.use("/api/books", bookRouter);
 app.use("/api/register", registerRouter);
 app.use("/api/login", loginRouter);
 
