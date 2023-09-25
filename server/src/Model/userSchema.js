@@ -2,12 +2,12 @@ const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema(
   {
+    fullName: { type: String, required: true },
     phoneNumber: { type: String, unique: true },
     password: { type: String, required: true },
-    fullName: { type: String, required: true },
     token: { type: String, default: "" },
     email: { type: String, required: true, unique: true },
-    role: { type: Boolean, required: true },
+    role: { type: String, required: true },
   },
   {
     collection: "UserRegister",
